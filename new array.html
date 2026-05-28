@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Iteration in JavaScript</title>
+</head>
+<body>
+    <h2>Open Console to See Output</h2>
+
+    <script>
+        // Declare an array
+        let numbers = [10, 20, 30, 40, 50];
+
+        // Using for loop
+        document.write("Iteration using for loop:");
+        for (let i = 0; i < numbers.length; i++) {
+            document.write(numbers[i]);
+        }
+    
+
+        // Using forEach loop
+        document.write("Iteration using forEach() loop:");
+        numbers.forEach(function (value, index) {
+            document.write("Index " + index + ": " + value);
+        });
+    </script>
+</body>
+</html>
